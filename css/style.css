@@ -67,20 +67,24 @@ main > section {
 
 main > section > article {
     flex-grow: 1;
-    width: 66%;
+    width: 74%;
     padding: .25%;
 }
 
 main > section > .imgs-articles {
-    width: 33%;
+    width: 25%;
 }
 
 section {
     border-bottom: 1px solid rgba(152, 152, 152, .2);
 }
 
-article > p {
+article {
     font-family: 'Muli';
+}
+
+article > span {
+  font-style: italic;
 }
 
 article > h2 {
@@ -93,10 +97,12 @@ article > img {
 }
 
 footer {
+    font-family: 'Muli';
     background-color: #16440e;
     padding: 1em;
+    color: white;
 }
 
-footer > h2 {
-  color: white;
+footer > p > a {
+    color: green;
 }
