@@ -24,7 +24,7 @@ header {
 header p {
     font-family: 'Josefin Sans', Arial, sans-serif;
     color: white;
-    font-size: calc(10px + 1vw);
+    font-size: calc(6px + 1vw);
     width: 40%;
     text-align: center;
 }
